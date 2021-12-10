@@ -67,4 +67,3 @@ ___
 #### Languages
 * Russian C2
 * English B1+
-___
