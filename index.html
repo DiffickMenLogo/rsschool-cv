@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <title>CV</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <section class="left-col">
+                        <header>
+                            <div class="logo"></div>
+                            <div class="name">
+                                <h1>Ilya Fishtick</h1>
+                            </div>
+                        </header>
+                        <article>
+                            <div class="contacts">
+                                <h3 class="sub-header-left">Contacts</h3>
+                                <ul class="info">
+                                    <li>
+                                      <img src="img/phone.svg" alt="phone" width="30px" height="30px">
+                                      <p>Phone : +375333187887</p>
+                                    </li>
+                                    <li>
+                                      <img src="img/envelope.svg" alt="mail" width="30px" height="30px">
+                                      <p>E-Mail : gh.sdfs@mail.ru</p>
+                                    </li>
+                                    <li>
+                                      <img src="img/github.svg" alt="git" width="30px" height="30px">
+                                      <p>Git : @Diffick</p>
+                                    </li>
+                                    <li>
+                                      <img src="img/telegram.svg" alt="telegram" width="30px" height="30px">
+                                      <p>Telegram : @Diffick</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="skills">
+                                <h3 class="sub-header-left">Skills</h3>
+                                <ul class="info">
+                                    <li>Webpack(Good)</li>
+                                    <li>HTML(Good)</li>
+                                    <li>CSS(Less, Sass, Bootstrap)</li>
+                                    <li>JavaScript(Good)</li>
+                                    <li>C(Experienced)</li>
+                                    <li>C++(Good)</li>
+                                    <li>Assembler(Good)</li>
+                                    <li>Git(Basic)</li>
+                                </ul>
+                            </div>
+                            <div class="lang">
+                                <h3 class="sub-header-left">Language</h3>
+                                <ul class="info">
+                                    <li>Russian C2</li>
+                                    <li>English B1+</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <div class="col-md-6 offset-1 col-6">
+                    <section class="right-col">
+                        <article>
+                            <div class="sub-header">
+                                <img src="img/person.svg" alt="me" width="30px" height="30px">
+                                <h3>About Me</h3>
+                            </div>
+                            <p>I am a third-year student at Brest State Technical University. I like to develop my skills in different directions. Also, learning new programming languages and improving in the old ones. I am very attentive to my work and diligently perform every detail. One of my hobbies is skateboarding(it helps to keep the body in shape). I like to discuss various topics. I respect my elders. In general, I am a sociable person who is looking for opportunities to improve my skills.</p>
+                            <div class="sub-header">
+                                <img src="img/book.svg" alt="edu" width="30px" height="30px">
+                                <h3>Education</h3>
+                            </div>
+                            <ul>
+                                <li>Brest State Tehnical University(In progress)</li>
+                                <ul>
+                                  <li>System Engineer(Computers systems and networks)</li>
+                                </ul>
+                                <li>Youtube education</li>
+                                <ul>
+                                  <li>Many vidios about HTML/CSS</li>
+                                </ul>
+                                <li>Courses</li>
+                                <ul>
+                                    <li>Rsschool JS/Front-end 2021Q3</li>
+                                  <li>Hexlet HTML/CSS</li>
+                                  <li>JavaScript Manual on learnjavascript.ru (In progress)</li>
+                                </ul>
+                            </ul>
+                            <div class="sub-header">
+                                <img src="img/info-circle.svg" alt="exp" width="30px" height="30px">
+                                <h3>Experience</h3>
+                            </div>
+                            <ul>
+                                <li>Made database for Library(C++, Qt designer, SQLite, course work)</li>
+                                <li>Made utility for Linux to check autostart application, modules, services(Linux, Qt designer, SQLite, C++, bash)</li>
+                                <li>Make primitive website to practice new languages(HTML/CSS, Less,Bootstrap)</li>
+                            </ul>
+                            <div class="sub-header">
+                                <img src="img/file-code.svg" alt="code" width="30px" height="30px">
+                                <h3>Code Example</h3>
+                            </div>
+                            <div class="code">
+                                <pre>
+                                    <code>
+function createSecretHolder(secret) {
+    return {Value : secret,
+    setSecret : function(a){
+        this.Value = a;
+    },
+    getSecret : function(){
+        return this.Value;
+    }
+    }
+}
+                                    </code>
+                                </pre>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <footer>
+                    <!-- <div class="col-md-12"> -->
+                        <a class="mygit" href="https://github.com/DiffickMenLogo">
+                            <img src="img/github.svg" alt="git" width="30px" height="30px">
+                        </a>
+                        <p>2021</p>
+                        <a class="rs" href="https://rs.school/">
+                            <img src="img/rsschool.svg" alt="rs" width="70px" height="70px">
+                        </a>
+                    <!-- </div> -->
+                </footer>
+            </div>
+        </div>
+    </body>
 </html>
